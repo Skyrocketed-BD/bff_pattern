@@ -11,18 +11,26 @@ return Application::configure(basePath: dirname(__DIR__))
         commands: __DIR__ . '/../routes/console.php',
         health: '/up',
         then: function () {
-            Route::middleware(['api'])->group(__DIR__ . '/../routes/api/main.php');
-            Route::middleware(['api'])->group(__DIR__ . '/../routes/api/finance.php');
-            Route::middleware(['api'])->group(__DIR__ . '/../routes/api/operation.php');
+            Route::middleware(['api'])
+                ->prefix('api')
+                ->group(base_path('routes/api.php'));
+
+            Route::middleware(['web'])
+                ->prefix('bff-web')
+                ->group(base_path('routes/bff-web.php'));
+
+            Route::middleware(['web'])
+                ->prefix('bff-mobile')
+                ->group(base_path('routes/bff-mobile.php'));
         }
     )
     ->withMiddleware(new App\Http\AppMiddleware())
     ->withExceptions(function (Exceptions $exceptions) {
-        $exceptions->render(function (AuthenticationException $e, Request $request) {
-            if ($request->is('api/*')) {
-                return response()->json([
-                    'message' => $e->getMessage(),
-                ], 401);
-            }
-        });
+        // $exceptions->render(function (AuthenticationException $e, Request $request) {
+        //     if ($request->is('api/*')) {
+        //         return response()->json([
+        //             'message' => $e->getMessage(),
+        //         ], 401);
+        //     }
+        // });
     })->create();
