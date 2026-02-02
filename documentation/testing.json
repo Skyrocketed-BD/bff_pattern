@@ -1,0 +1,660 @@
+{
+  "info": {
+    "name": "auth",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "permissions",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "bearer",
+          "bearer": {
+            "key": "token",
+            "value": "{{token}}",
+            "type": "string"
+          }
+        },
+        "description": "",
+        "url": {
+          "raw": "{{url}}/permissions",
+          "protocol": "",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "permissions"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"date\": \"2025-07-22\",\n    \"transaction_type\": \"recurring\",\n    \"duration\": 12,\n    \"description\": \"asd\",\n    \"reference_number\": \"test\",\n    \"id_coa\": [\n        1,\n        2\n    ],\n    \"coa\": [\n        110101,\n        110102\n    ],\n    \"type\": [\n        \"D\",\n        \"K\"\n    ],\n    \"amount\": [\n        10000,\n        10000\n    ]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "testing_four",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "bearer",
+          "bearer": {
+            "key": "token",
+            "value": "{{token}}",
+            "type": "string"
+          }
+        },
+        "description": "",
+        "url": {
+          "raw": "{{url}}/invoice-bills",
+          "protocol": "",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "invoice-bills"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "testing_one",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "bearer",
+          "bearer": {
+            "key": "token",
+            "value": "{{token}}",
+            "type": "string"
+          }
+        },
+        "description": "",
+        "url": {
+          "raw": "{{url}}/receipts",
+          "protocol": "",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "receipts"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "date",
+              "value": "2026-01-23",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "id_kontak",
+              "value": "12",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "id_journal",
+              "value": "12",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "pay_type",
+              "value": "bt",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "transaction_number",
+              "value": "0001/INV/SSP/FIN/VI/2025",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "reference_number",
+              "value": "REF-PB-MMS25-0018",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "description",
+              "value": "testing file",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "total",
+              "value": "1000000",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "value",
+              "value": "3150876765",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "in_ex_tax",
+              "value": "o",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "record_type",
+              "value": "bank",
+              "disabled": false,
+              "type": "default"
+            },
+            {
+              "key": "attachment",
+              "value": [
+                "/home/echolog/Documents/Office/SLIDE PRESENTASI - DJP Briefing Media.pdf"
+              ],
+              "disabled": false,
+              "type": "default"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "testing_three",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "bearer",
+          "bearer": {
+            "key": "token",
+            "value": "{{token}}",
+            "type": "string"
+          }
+        },
+        "description": "",
+        "url": {
+          "raw": "{{url}}/advance-payments",
+          "protocol": "",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "advance-payments"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "testing_two",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "bearer",
+          "bearer": {
+            "key": "token",
+            "value": "{{token}}",
+            "type": "string"
+          }
+        },
+        "description": "",
+        "url": {
+          "raw": "{{url}}/shipping_instructions?start_date=2025-12-01&end_date=2026-01-31&id_kontraktor=",
+          "protocol": "",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "shipping_instructions?start_date=2025-12-01&end_date=2026-01-31&id_kontraktor="
+          ],
+          "query": [
+            {
+              "key": "start_date",
+              "value": "2025-12-01"
+            },
+            {
+              "key": "end_date",
+              "value": "2026-01-31"
+            },
+            {
+              "key": "id_kontraktor",
+              "value": ""
+            }
+          ],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"transactionType\": \"expend\",\n    \"date\": \"2025-12-31\",\n    \"id_transaction_type\": 142,\n    \"from_or_to\": \"Tatang Komarudin\",\n    \"id_kontak\": 332,\n    \"id_journal\": 142,\n    \"pay_type\": \"bt\",\n    \"transaction_number\": \"0007/INV/SSP/FIN/I/2026\",\n    \"reference_number\": \"0002\",\n    \"description\": \"tes\",\n    \"total\": 150000000,\n    \"value\": 150000000,\n    \"sisa\": 150000000,\n    \"in_ex_tax\": \"o\",\n    \"prepayments\": true,\n    \"selected_prepayment\": null,\n    \"dataBeban\": [],\n    \"record_type\": \"bank\",\n    \"deposit\": \"advance_payment\",\n    \"deposit_total\": 100000000,\n    \"adv_pay_total\": 100000000\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Api",
+      "item": [
+        {
+          "name": "login",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "{{url}}/auth/login",
+              "protocol": "",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "auth",
+                "login"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "username",
+                  "value": "alan",
+                  "disabled": false,
+                  "type": "default"
+                },
+                {
+                  "key": "password",
+                  "value": "alan1234",
+                  "disabled": false,
+                  "type": "default"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "logout",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "{{url}}/auth/logout",
+              "protocol": "",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "auth",
+                "logout"
+              ],
+              "query": [],
+              "variable": []
+            }
+          }
+        },
+        {
+          "name": "me",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "{{url}}/auth/me",
+              "protocol": "",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "auth",
+                "me"
+              ],
+              "query": [],
+              "variable": []
+            }
+          }
+        },
+        {
+          "name": "refresh",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "{{url}}/auth/refresh",
+              "protocol": "",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "auth",
+                "refresh"
+              ],
+              "query": [],
+              "variable": []
+            }
+          }
+        },
+        {
+          "name": "register",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "{{url}}/auth/register",
+              "protocol": "",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "auth",
+                "register"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "name",
+                  "value": "alan",
+                  "disabled": false,
+                  "type": "default"
+                },
+                {
+                  "key": "email",
+                  "value": "alan@gmail.com",
+                  "disabled": false,
+                  "type": "default"
+                },
+                {
+                  "key": "username",
+                  "value": "alan",
+                  "disabled": false,
+                  "type": "default"
+                },
+                {
+                  "key": "password_confirmation",
+                  "value": "password123",
+                  "disabled": false,
+                  "type": "default"
+                },
+                {
+                  "key": "password",
+                  "value": "password123",
+                  "disabled": false,
+                  "type": "default"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "testing_one",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "key": "token",
+                "value": "{{token}}",
+                "type": "string"
+              }
+            },
+            "description": "",
+            "url": {
+              "raw": "{{url}}/coas/49",
+              "protocol": "",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "coas",
+                "49"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bff",
+      "item": [
+        {
+          "name": "login",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "{{url}}/auth/login",
+              "protocol": "",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "auth",
+                "login"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "username",
+                  "value": "alan",
+                  "disabled": false,
+                  "type": "default"
+                },
+                {
+                  "key": "password",
+                  "value": "alan1234",
+                  "disabled": false,
+                  "type": "default"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "logout",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "{{url}}/auth/logout",
+              "protocol": "",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "auth",
+                "logout"
+              ],
+              "query": [],
+              "variable": []
+            }
+          }
+        },
+        {
+          "name": "me",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "disabled": false,
+                "type": "default"
+              }
+            ],
+            "auth": {
+              "type": "noauth"
+            },
+            "description": "",
+            "url": {
+              "raw": "{{url}}/auth/me",
+              "protocol": "",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "auth",
+                "me"
+              ],
+              "query": [],
+              "variable": []
+            }
+          }
+        },
+        {
+          "name": "testing_one",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "key": "token",
+                "value": "",
+                "type": "string"
+              }
+            },
+            "description": "",
+            "url": {
+              "raw": "{{url}}/coas",
+              "protocol": "",
+              "host": [
+                "{{url}}"
+              ],
+              "path": [
+                "coas"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "url",
+      "value": "",
+      "type": "default"
+    },
+    {
+      "key": "token",
+      "value": "",
+      "type": "default"
+    }
+  ]
+}
