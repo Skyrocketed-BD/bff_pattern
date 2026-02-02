@@ -1,0 +1,403 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@page {
+    /* margin-top: 100px;
+    margin-bottom: 70px; */
+    margin: 15mm 10mm 20mm 10mm;
+
+    @bottom-center {
+        content: "Halaman " counter(page) " dari " counter(pages);
+    }
+}
+
+body {
+    font-family: "SourceSansPro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    color: #282d32;
+    font-size: 0.875rem;
+    position: relative;
+    margin: 0 auto;
+}
+
+header {
+    padding-bottom: 25px;
+    margin-top: -30px;
+    margin-bottom: 15px;
+    /* border-bottom: 1px solid #aaaaaa; */
+    height: 80px;
+}
+
+.table-header {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.table-header td {
+    padding: 0;
+    border: 0;
+    padding: 0px 0px 7px 0px;
+    /* border: 1px solid #1d1d1d; */
+    border-bottom: 1px solid #252525;
+}
+
+.header-border td {
+    padding: 0;
+    border: 0;
+    padding: 0px 0px 1px 0px;
+    /* border: 1px solid #1d1d1d; */
+    border-bottom: 1px solid #252525;
+}
+
+.logo-cell {
+    width: 15%;
+    text-align: center;
+    /* margin: 0 auto 4px auto; */
+
+}
+
+.logo-img {
+    width: 90%;
+    /* height: 85px; */
+}
+
+.company-cell {
+    width: 85%;
+    text-align: center;
+    vertical-align: top;
+    /* border: 1px solid #333; */
+
+}
+
+h2.company-name {
+    margin: 0;
+    display:inline-table;
+    text-transform: uppercase;
+    /* letter-spacing: 1pt; */
+    font-size: 2rem;
+    padding-bottom: 1px;
+    border-bottom: 3px solid #0f0f11;
+}
+.company-bottom {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #242427;
+    display:inline-table;
+}
+/* .company-info {
+    padding-bottom: 18px;
+} */
+
+#logo {
+    float: left;
+    margin-top: 8px;
+    margin-right: 80px;
+}
+
+#logo img {
+    height: 80px;
+}
+
+#company {
+    text-align: center;
+}
+#company .name {
+    text-transform: uppercase;
+    font-size: 2rem;
+    /* text-decoration: underline; */
+    /* text-decoration-style: double; */
+    /* solid | double | dotted | dashed | wavy */
+    border-bottom: 3px solid #000000;
+    /* display:inline-table; */
+}
+
+#company .info {
+    text-align: center;
+    color: #222;
+}
+
+h2.name {
+    font-size: 1.4em;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin: 0;
+}
+
+.remove-link {
+    text-decoration: none;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-half {
+    width: 50%;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.kanan {
+    text-align: right;
+}
+.miring {
+    font-style: italic;
+}
+
+.tebal {
+    font-weight: bold;
+}
+
+.lebih-besar {
+    font-size: 1.1em !important;
+    font-style: italic;
+}
+
+.margin-top {
+    margin-top: 1.12rem;
+}
+
+.margin-bottom {
+    margin-bottom: 1.52rem;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header .title {
+    padding: 0;
+    font-weight: bold;
+    font-style: italic;
+    color: #111;
+    margin: 0;
+}
+
+.header .sub-title {
+    padding: 0;
+    font-weight: bold;
+    margin: 0;
+}
+
+.border-top {
+    display: inline-block;
+    border-top: 1px solid #222;
+}
+
+.border-bottom {
+    display: inline-block;
+    border-bottom: 1px solid #222;
+}
+
+.info-section {
+    margin-top: 30px;
+}
+
+.info-section .bill-to {
+    font-style: italic;
+    color: #444;
+}
+
+.info-section .line-space {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.info-bank {
+    font-size: 11px;
+    /* margin-top: 15px; */
+    position: fixed;
+    width: 100%;
+    right: 0;
+    bottom: 60px;
+}
+
+.info-bank .bill-to {
+    font-style: italic;
+    color: #444;
+}
+
+.info-bank .account-name {
+    font-weight: bold;
+    color: #444;
+}
+
+.info-bank .line-space {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.info-bottom {
+    position: fixed;
+    /* left: 0; */
+    width: 100%;
+    /* padding: 0; */
+    /* margin: auto; */
+    right: 0;
+    bottom: 0px;
+    margin-bottom: -30px;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.info-bottom .bill-to {
+    font-weight: bold;
+}
+
+.info-bottom .line-space {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.table-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+table {
+    /* width: 100%; */
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #aaa;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table-reference {
+    width: 100%;
+}
+
+.table-reference td {
+    padding: 4px 8px;
+}
+
+.table-details,
+.table-history {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.table-details td {
+    border: 1px solid #aaa;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.table-details th {
+    border: 1px solid #aaa;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.table-history th {
+    padding: 3px;
+    border: 1px solid #aaa;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.table-history td {
+    border: 1px solid #aaa;
+    padding: 2px;
+    font-size: 10px;
+}
+
+.table-bank td {
+    padding: 4px 8px;
+}
+
+.info-inspector {
+    position: fixed;
+    width: 100%;
+    right: 0;
+    bottom: 70px;
+}
+
+.table-inspector {
+    width: 100%;
+}
+
+.table-inspector td {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 11px;
+    padding: 2px;
+    border: none;
+    text-align: center;
+}
+
+.mining-inspector {
+    font-size: 14px !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.reference {
+    width: 120px;
+}
+
+.totals {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.totals .total-line {
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.total-paid {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1rem;
+}
+
+.termin-paid {
+    font-weight: bold;
+    font-style: italic;
+    color: #444;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    color: #333;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    margin-bottom: -60px;
+}

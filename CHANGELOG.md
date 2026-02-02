@@ -1,0 +1,1923 @@
+## v1.0.5 - 2025-06-11
+- fix: login mobile app
+## v1.0.4 - 2025-06-03
+- fix: salah tanggal HMA, harusnya ambil dari invoice fob
+## v1.0.3 - 2025-06-02
+- fix: cetakan invoice multilang
+- temporaryfix: provision final
+- FINANCE | update downpayment
+- FINANCE | update downpayment
+- FINANCE | update downpayment
+- downpayment tidak update
+- feat: operation | update cetakan termin en-id
+## v1.0.2 - 2025-05-28
+- fix: update event user trugger and pushy
+- FINANCE | update downpayment
+- FINANCE | update downpayment
+- FINANCE | update downpayment
+- downpayment tidak update
+- feat: operation | update cetakan termin en-id
+## v1.0.2 - 2025-05-26
+- Operation | Controllers | add initial kontraktor on stokinpit filter
+## v1.0.1 - 2025-05-26
+- fix: status timeline
+## v1.0.0 - 2025-05-26
+- fix: validasi array token kosong push notification
+- update: filter quarter ore shipping dan export excel
+- Merge branch 'main' into Develop
+- Finance | route down paymnet undo [2]
+- Merge feature/down-payments
+- Finance | route down paymnet undo [2]
+- Merge feature/down-payments
+- Finance | route down paymnet undo
+- FINANCE | update down payment validasi
+- Merge branch 'Develop' of https://github.com/Skyrocketed-BD/mining-backend-lite into Develop
+- FINANCE | update invoice fob description
+- Merge feature/down-payments
+- Finance | update down payments
+- FINANCE | update index receipts add kontak
+- FINANCE | update index expenditure add kontak
+- FINANCE | update index resource
+- Merge feature/down-payments
+- Finance | fix index down payments
+- OPERATION | tambahkan number_si & pb_name pada ore shiping, plan barging, provision, shipping
+- Contract Legal | fix kontrak tahapan
+- Merge branch 'Develop' of https://github.com/Skyrocketed-BD/mining-backend-lite into Develop
+- OPERATION | tambahkan number_si & pb_name pada ore shiping, plan barging, provision, shipping
+- Merge feature/kontrak-tahapan
+- Contract Legal | fix kontrak tahapan
+- FINANCE | update down payment flow
+- Temporary Disable Notif Trigger
+- Merge feature/down-payment
+- Finance | fix get kontak dp summary
+- Merge branch 'Develop' of https://github.com/Skyrocketed-BD/mining-backend-lite into Develop
+- Merge feature/down-payment
+- Finance | fix get kontak dp summary
+- FINANCE | update receipts
+- FINANCE | update expenditure
+- FINANCE | update down payment
+- FINANCE | update down payment
+- FINANCE | update down payment
+- FINANCE | update down payment
+- MAIN | update reset password
+- FINANCE | update store change from _journal_automatic to _count_journal
+- OPERATION | update invoice fob
+- update helper custom
+- update helper finance
+- Merge feature/down-payment
+- Finance | fix get kontak dp summary
+- Merge feature/down-payment
+- Finance | fix get kontak dp summary
+- Merge feature/getContactDownPaymentSummary
+- Finance | Controller | DP | add get dp & kontak summary
+- Merge feature/filter-journal
+- Finance | add filter journal with parameters type & outstanding
+- Merge feature/update-resource
+- Finance | update resource
+- Merge feature/update-filter-journal
+- Finance | update resource
+- Merge feature/test-fitur
+- update repository plan barging
+- Merge branch 'main' into Develop
+- update gitignore
+- Merge branch 'main' into Develop
+- update .gitignore
+- Finance | add is_outstanding value in result filter journal
+- add user tokens
+- update user notification
+- update pushy
+- update event
+- OPERATION | update repository stok in pit, eto, dan efo
+- Finance | fix route journal filter
+- Finance | update down payment
+- OPERATION | update provision coa
+- Operation | add update provision coa
+- OPEARTION | add kontraktor event triggered
+- Merge branch 'Develop'
+- OPERATION | update event trigger plan barging dan shipinginstruction
+- - api: ikut tercommit
+- Finance | Add Requests
+- Merge commit '4fe527d381f67ccda957a8a075585cf858a0787c'
+- - update refresh token
+- Merge commit 'fb91429f90e7d315c19d0aa66c05f9f364a31755'
+- Merge branch 'main' into Develop
+- - stockglobal: salah posisi key
+- Test dulu komen
+- Finance | Controllers | update response error
+- Finance | Controllers | fix DB transaction & create new entry
+- OPERATION | update description redaction pada provision_coa
+- OPERATION | update type mc_final pada provision
+- Merge commit 'daeeac57c9b6ef02f2477a717a5102297afd9494'
+- Merge branch 'main' into Develop
+- Operation || Plan Barging || Add provision coa
+- - OreShipping: Monthly Summary
+- OPERATION | update plan barging
+- FINANCE | revisi store down_payments
+- Finance | add down payments
+- OPERATION | add duration days request by pak Dian
+- update doc swagger
+- OPERATION | update stok efo add transfer stok
+- OPERATION | update stok eto add transfer stok
+- OPERATION | update stok in pit add transfer stok
+- update route operation
+- CONTRACTLEGAL | update controller
+- remove event not use
+- Merge branch 'main' into Develop
+- - hotfix: oreshipping
+- Contract Legal | Controllers | fix DB transaction and create new entry
+- Merge branch 'Develop' of https://github.com/Skyrocketed-BD/mining-backend-lite into Develop
+- OPERATION | update resource invoice fob
+- Merge commit '37522a2f1fa4632d8946c57d0f5f43770b66a61a' into Develop
+- update route
+- Contract Legal | Controllers | update
+- update event triggrers
+- Merge commit 'aeffa4222baf691991f1f3de6132e33b437641f0'
+- - invoice: tambah no kontrak dan alamat buyer
+- - invoice: tambah no kontrak dan alamat buyer
+- - oreshipping: update filter
+- - operation: dashboard update id_kontraktor
+- - operation: dashboard
+- update routes web
+- - update checkevent
+- OPERATION | update model kontraktor
+- CONTRACT LEGAL | fix it code not use
+- update routes web
+- - oreshipping title
+- - oreshipping title
+- update sort shipping instruction
+- update sort stok psi
+- Merge branch 'Develop' of https://github.com/Skyrocketed-BD/mining-backend-lite into Develop
+- update event trigger
+- - oreshipping
+- - oreshipping
+- - GL Export: no data available
+- - oreshipping filter
+- - test push
+- Contract Legal | update recource & controller legal
+- - test push
+- - test push
+- - test push
+- - test push
+- - mobile login
+- - mobile login
+- Contract Legal | add function edit description tahapan
+- OPERATION | shippinginstruction  approve notification
+- - oreshipping
+- Merge commit '69cf89f3a7ac0cb4a6c87b9320f34c2aef124e6c' into Develop
+- MAIN | update users event
+- Contract Legal | update contract
+- remove pushy controller
+- update route api
+- OPERATION | update kontraktor
+- update pushy for notification
+- MAIN | add user notification
+- MAIN | add user event
+- - pushy
+- Merge branch 'main' into Develop
+- OPERATION | delete shippinginstruction request
+- Contract Legal | update Legal Resource
+- Merge branch 'Develop' of https://github.com/Skyrocketed-BD/mining-backend-lite into Develop
+- Merge commit '8c415694be6b56c00070e0bbf79c40f90eef1511' into Develop
+- Merge branch 'main' into Develop
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- CONTRACT LEGAL | update kontrak
+- OPERATION | ore shipping controller
+- update doc swagger
+- Contract Legal | Kasus L Resource | add id jadwal sidang
+- Merge branch 'main' into Develop
+- update doc swagger
+- update route
+- MAIN | update kontak
+- OPERATION | update provision
+- OPERATION | update ore shipping
+- OPERATION | update provision
+- Contract Legal | fix reject function
+- Merge commit '54a3e3bcdb7e13c79087cf0d2aed1cbfdd3cdb3e' into Develop
+- - kontak: update kondisi hasKontrak
+- update receipt
+- Merge branch 'main' into Develop
+- OPERATION | update provision
+- Merge branch 'main' into Develop
+- OPERATION | update provision
+- Merge branch 'main' into Develop
+- CONTRACT LEGAL | update kontrak
+- Merge branch 'main' into Develop
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- CONTRACT LEGAL | update kontrak
+- Contract Legal | fix file upload
+- Merge branch 'main' into Develop
+- - update kontak
+- - update riwayat pembayaran cetakan invoice
+- update checking receipt and update shipping instruction
+- - update riwayat pembayaran cetakan invoice
+- - update kontak ic_company
+- Merge branch 'main' into Develop
+- OPERATION | update resource provision
+- Add ID KONTAK in all transaction
+- Operation || Provision
+- Revert "- update riwayat pembayaran"
+- - update riwayat pembayaran
+- - SI = update filter kontrakter
+- Merge branch 'main' into Develop
+- FINANCE | update value round in journal
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update structur database
+- Contract Legal | fix response
+- Contract Legal | update function approve & reject
+- Contract Legal | update kontrak
+- Operation || Sort Stock In Pit by latest Id
+- Operation || Updated Inventory returned data type to float
+- Operation || Upd request tonage_after StockEfo & Eto
+- - update cetakan invoice ambil dari table invoice_fob
+- - update float
+- - fix it url api in transaction full
+- Merge branch 'main' into Develop
+- FINANCE | fix it url api in transaction full
+- MAIN | update kontak
+- OPERATION | update request invoice fob dan  provision
+- MAIN | update kontak
+- Merge branch 'main' into Develop
+- OPERAION | update resource kontraktor
+- FINANCE | update structur
+- OPERATION | update invoice fob and provision for kontak
+- OPERATION | update plan barging
+- OPERATION | update plan barging
+- OPERATION | update invoice fob
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- OPERATION | update invoice fob
+- FINANCE | tambahkan request
+- Contract Legal | Kontrak Resource update
+- - update response
+- OPERATION | update plan barging
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- OPERATION | delete plan barging
+- - update hitungan floor
+- Contract Legal | Kontrak Resource | add time left
+- Contract Legal | update controller
+- - test
+- - update delete kontak
+- - sort descending
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- MAIN | update kontak
+- - update cetakan invoice
+- - update kontak resource
+- MAIN | update kontak index
+- update kontak
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update structure table type data
+- - update migration table kontak
+- - update exportexcel asset depresiasi
+- update swagger doc
+- MAIN | add kontak
+- OPERATION | update delete plan barging
+- OPERATION | update delete data stok efo
+- OPERATION | update delete data stok eto
+- OPERATION | update delete data stok eto
+- OPERATION | update delete data stok efo
+- - nama perusahaan
+- Contract Legal | updated
+- - update invoice termin dan final
+- - update invoice final dan temrin
+- - update invoice final
+- OPERATION | add delete plan barging
+- OPERATION | update provision
+- OPERATION | update provision
+- update doc swagger
+- OPERATION | update provision coa
+- OPERATION | update invoice fob
+- OPERATION | update provision
+- OPERATION | update provision coa
+- update helper function for finance
+- - komen dulu normalizeNumber di resource
+- Contract Legal | Jadwal Sidang updated
+- OPERATION | add attechment in plan barging
+- UPDATE helper function
+- -update provision resource mc
+- FIX IT currency USA /IDR
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- FIX IT currency USA /IDR
+- Contract Legal || updated
+- Operation || Provision || Add HMA in resource
+- - InvoiceFOB tidak tersimpan HMA nya
+- Revert "OPERATION | invoice fob add sanitizeCurrency for format"
+- OPERATION | invoice fob add sanitizeCurrency for format
+- OPERATION | update db transaction operation
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- OPERATION | update db transaction operation
+- Contract Legal | Contract updated
+- - update attachment
+- - update bug max right
+- - update generate dome eto efo
+- OPERATION | update generate stok eto efo
+- OPERATION | update generate stok eto efo
+- OPERATION | update generate stok eto efo
+- OPERATION | update generate stok eto efo
+- - endpoint generate dome eto efo
+- - tambah created-updated at
+- - update errors api responseClass
+- - update rekening transfer berdasarkan show - tambah transport vessel - cetakan invoice
+- FINANCE | update bank n cash resource
+- FINANCE | update  bank n cash
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update swagger doc
+- OPERATION | update in pit to stok efo
+- backEnd || Pagination || Stock In Pit
+- OPERATION | update store plan barging
+- - update invoice
+- - invoice
+- - invoice
+- - invoice
+- - invoice
+- - invoice
+- - invoice
+- - invoice
+- - tambah 2 digit
+- - update terbilang
+- - update invoice pdf
+- OPERATION | update provision coa
+- OPERATION | update table invoice fob dan provision coa
+- - temporary disable pagination stokinpit
+-  - update sum product MC
+- - update price invoiceBill
+- update price
+- - numeric
+- - status false loginRequest
+- OPERATION | add pagination in stok in pit
+- OPERATION | add delete method for delete row
+- - division by zero
+- Contract Legal || Contract
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- OPERATION | add ore  shipping list
+- - division by zero
+- OPERATION | update shipping instruction
+- Contract Legal || update resource kasus litigasi
+- Contract Legal || update resource kasus litigasi
+- Contract Legal || update resource kasus litigasi
+- - tambah reject_reason si approve resourcee
+- OPERATION | update shipping instruction
+- CONTRACT LEGAL | add tabel kontrak
+- OPEARTION | update shipping instruction request
+- OPERATION | update shipping instruction
+- - update transaction term
+- Contract Legal | update docs
+- Contract Legal | add put endpoint for jadwal sidang
+- Contract Legal | add update reqest
+- Contract Legal | add status in riwayat
+- OPERATION | update shipping instruction
+- OPERATION | update provision coa
+- OPERATION | update shipping instruction  request
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- OPERATION | update shipping instruction  request
+- - tambah status di timeline
+- - tambah additional note saat approve si
+- OPERATION | update status shipping instruction index
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- OPERATION | update status shipping instruction
+- - status 2 5
+- OPERATION | update  status shippinginstruction
+- FINANCE | update transaction term
+- FINANCE | update transaction term
+- OPERATION | update provision coa
+- OPERATION | update provision resource
+- OPERATION | update provision
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- OPERATION | update provision
+- - finance: update perhitungan bank rekoncile untuk bunga bank 0
+- - operation: tambah additional note di pdf si
+- - lupa lepas comment
+- - operation: tambah additional note di pdf si
+- - operation: tambah mining inspector dan surveyor
+- Contract Legal | add attr jadwal_sidang
+- Contract Legal | edit jadwal sidang
+- - operation: remove validation surveyor on put .
+- OPERATION | update provision coa
+- - operation: tambah surveyor di cetakan SI .
+- - operation: tambah surveyor di shipping instruction .
+- - operation: ganti integer gross_tonage dan load_amount di migration table shipping_instruction - operation: ganti float(8,3) tonage_final di migration table provision_coa .
+- - operation:update SI Request validation gross_tonage, load_mount
+- OPERATION | update shipping instruction
+- OPERATION | update shipping instruction
+- OPERATION | update shipping instruction
+- update doc swagger
+- CONTRACT LEGAL | kasus riwayat litigasi
+- CONTRACT LEGAL | jadwal sidang update
+- OPERATION | update shipping instruction
+- update doc swagger
+- Merge branches 'main' and 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update doc swagger
+- CONTRACT LEGAL | upadte kasus riwayat litigasi
+- CONTRACT LEGAL | add jadwal sidang
+- - finance: update user-agent
+- OPERATION | update provision resource
+- OPERATION | update plan barging resource
+- - fix generalledger log
+- update swagger doc
+- OPERATION | update provision dan provision coa
+- OPERATION | update shipping instruction
+- OPERATION | update shipping instruction
+- OPERATION | update invoice fob structur
+- OPERATION | update rejected shipping instruction
+- - api route operation
+- Contract Legal | resources updated
+- - update pdf si
+- - tambah kondisi jumlah penerimaan
+- - update invoice
+- - update invoice
+- update swagger doc
+- update route
+- CONTRACT LEGAL | update kasus nl tambahkan cabut kasus
+- CONTRACT LEGAL | update kasus l tambahkan cabut kasus
+- - update api delete transactionfull
+- - update api delete expense/receipts
+- - update api delete transaction
+- FINANCE | update helper
+- FINANCE | update helper
+- FINANCE | update tax rate
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- FINANCE | update transaction number
+- - update ni invoice_fob
+- - update ni
+- - update printedby
+- OPERATION | update invoice fob
+- OPERATION | update transaction term tambahkan detail
+- OPERATION | update gl check
+- FINANCE | update cek transaction name delete
+- OPERATION | update invoice fob
+- - operation: update value_percent
+- - operation: tambah round simg di planbargingresource
+- - operation: tambah mc di stokpsirepository
+- OPERATION | update plan barging
+- OPERATION | update invoice fob
+- OPERATION | update plan barging
+- OPERATION | update invoice fob
+- OPERATION | update plan barging
+- FINANCE | update transaction term
+- FINANCE | update transaction term
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- LEGAL & KONTRAK | tambahkan end point litigasi tahapan
+- - finance: update hitungan dashboard
+- update doc swagger
+- LEGAL & KONTRAK | tambahkan transfer kasus from non litigasi to litigasi
+- FINANCE | update transaction term
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- OPERATION | update plan barging
+- Transaction Full | change attachment resource
+- Contract Legal | update resources
+- - invoice pdf
+- - locale currency
+- OPERATION | update struktur plan barging
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- OPERATION | update struktur plan barging
+- - update generate finNumber - fix attachment
+- OPERATION | update invoice fob
+- update swagger doc
+- update route
+- OPERATION | udpdate shipping insttruction
+- OPERATION | update invoice fob
+- FINANCE | tambahkan transaction term
+- OPERATION | update plan barging
+- OPERATION | update route name shipping intruction approve
+- - update si pdf
+- OPERATION | request plan barging
+- OPERATION | updae plan barging
+- OPERATION | update si
+- OPERATION | update plan barging
+- OPERATION | shipping instruction
+- OPERATION | update invoice fob
+- update doc swagger
+- FINANCE | add kurs
+- update route
+- Merge branch 'main' of ssh://github.com/Skyrocketed-BD/mining-backend-lite
+- - kurs
+- Merge branches 'main' and 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- - update load amount pdf si
+- OPERATION | update shipping instruction
+- OPERATION | update plan barging
+- OPERATION | update plan barging
+- OPERATION | update psi
+- OPERATION | update shipping instruction
+- OPERATION | update shipping instruction approve
+- OPERATION | update shipping instruction
+- OPERATION | update plan barging ad mc
+- OPERATION | update flow and structur psi n plan barging
+- OPERATION | update flow and structur psi n plan barging
+- OPERATION | update flow and structur psi n plan barging
+- OPERATION | update flow and structur psi n plan barging
+- OPERATION | update flow and structur psi n plan barging
+- OPERATION | update flow and structur psi n plan barging
+- OPERATION | update flow and structur psi n plan barging
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- OPERATION | update stok psi
+- - update KasusNL
+- OPERATION | update stok psi
+- OPERATION | update stok psi
+- OPERATION | update stok psi
+- OPERATION | update stok psi
+- OPERATION | remove stok psi detail
+- Merge branch 'main' of ssh://github.com/Skyrocketed-BD/mining-backend-lite
+- - update division by zero
+- OPERATION | update shipping instruction
+- OPERATION | update shipping instruction
+- OPERATION | update plan barging
+- OPERATION | update plan barging
+- OPERATION | update shipping instruction
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- OPERATION | update swagger doc
+- OPERATION | update route
+- OPERATION | update
+- OPERATION | add shipping instruction approve
+- OPERATION | update invoice fob
+- OPERATION | update plan barging
+- OPERATION | update shipping instruction
+- OPERATION | update provision coa
+- - update userResource
+- add relation to riwayat kasus
+- add riwayat
+- update get data
+- OPERATION | update plan barging
+- OPERATION | update plan barging
+- OPERATION | update invoice fob
+- - tonage after
+- OPERATION | automatic journal invoice fob
+- update swagger
+- OPERATION | update route
+- OPERATION | update and add invoice fob plan barging
+- OPERATION | add method sales in plan barging
+- OPERATION | update request plan barging
+- OPERATION | update stok eto & efo update
+- OPERATION | update stok eto &  efo update
+- OPERATION | update stok eto &  efo update
+- OPERATION | update stok eto &  efo update
+- OPERATION | update stok eto &  efo update
+- OPERATION | update stok eto &  efo update
+- OPERATION | update stok eto &  efo update
+- OPERATION | update stok efo detail struktur
+- OPERATION | update stok eto detail struktur
+- update doc swagger
+- OPERATION | update stok eto dan efo update delete
+- OPERATION | update stok efo
+- OPERATION | update stok eto
+- - remove validasi 0 on co
+- - where null block
+- - update color
+- CONTRACT & LEGAL | update resource tahapan nl
+- CONTRACT & LEGAL | update resource tahapan l dan tahapan nl
+- - update list block
+- OPERATION | update block add list
+- OPERATION | update block add list
+- - remove spasi penaamaan pb
+- OPERATION | update bug plan barging
+- OPERATION | update requestnya KK Ryan
+- remove route psi
+- OPERATION | update stok efo
+- OPERATION | update stok eto
+- update doc swagger
+- CONTRACT & LEGAL | update route
+- CONTRACT & LEGAL | update non litigasi
+- CONTRACT & LEGAL | update litigasi
+- update doc swagger
+- FINANCE | update controller
+- FINANCE | update controller
+- OPERATION | update controller
+- update route
+- CONTRACT & LEGAL | remove controller not use
+- CONTRACT & LEGAL | riwayat kasus litigasi
+- CONTRACT & LEGAL | riwayat non kasus litigasi
+- CONTRACT & LEGAL | kasus non litigasi
+- CONTRACT & LEGAL | riwayat kasus litigasi
+- CONTRACT & LEGAL | kasus litigasi
+- update doc swagger
+- CONTRACT & LEGAL | remove model, controller, migrate not use
+- CONTRACT & LEGAL | update route n request tahapan nl
+- CONTRACT & LEGAL | controller non litigasi
+- CONTRACT & LEGAL | controller litigasi
+- CONTRACT & LEGAL | tabel litigasi
+- CONTRACT & LEGAL | tabel non litigasi
+- CONTRACT & LEGAL | tabel litigasi
+- CONTRACT & LEGAL | add master tahapan litigasi
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite into main
+- edit routes
+- add block, iup & jetty resources
+- edit block,iup & jetty requests
+- edit block,iup & jetty controller
+- OPERATION | update infrastructur
+- - remove update by boot
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- FINANCE | update controller
+- update generateUniqueInitial
+- MAIN | update controller
+- OPERATION | update controller
+- FINANCE | update models
+- MAIN | update models
+- OPERATION | update models
+- OPERATION | update models
+- lupa kontraktor resource
+- - ganti kontraktor pic
+- update doc swagger
+- CONTRACT & LEGAL | add request in master tahapan
+- CONTRACT & LEGAL | add request in master pra peradilan
+- CONTRACT & LEGAL | add request in master pidana
+- CONTRACT & LEGAL | add request in master gugatan
+- CONTRACT & LEGAL | add master tahapan non litigasi
+- CONTRACT & LEGAL | add master tahapan non litigasi
+- CONTRACT & LEGAL | add master pra peradilan
+- CONTRACT & LEGAL | add master pidana
+- CONTRACT & LEGAL | add master gugatan
+- update database config
+- update route
+- Main || Login || Add Color on response
+- OPERATION | update doc swagger
+- OPERATION | add infrastructure self
+- Operation || Infrastructure || Filter Category
+- OPERATION | update infrastructur
+- update infrastructure
+- changing
+- OPERATION | update resource infrastructure
+- OPERATION | update resource infrastructure
+- OPERATION | update resource infrastructure
+- OPERATION | update doc swagger
+- update route
+- OPERATION | add iup area master
+- OPERATION | update doc swagger
+- OPERATION | update route operation
+- OPERATION | add infrastructure
+- FINANCE | update block
+- FINANCE | update journal otomatic
+- FINANCE | update tax rate
+- FINANCE | update tax
+- FINANCE | update journal otomatic
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- FINANCE | update journal otomatic
+- - update closing entry not found
+- - update closing entry not found
+- FINANCE | terus terang saya tidak diberi tahu saya tidak tahu dan saya bahkan bertanya tanya kenapa kok saya tidak diberi tahu.
+- FINANCE | update journal otomatic
+- FINANCE | update journal otomatic
+- FINANCE | update journal otomatic
+- FINANCE | update array to object transactionfull and helper
+- FINANCE | update array to object
+- FINANCE | update array to object
+- FINANCE | update array to object
+- FINANCE | update array to object
+- FINANCE | update resource in asset item
+- FINANCE | update destroy asset item
+- - update cetakan invoice penerimaan
+- - update error code respon
+- - insufficient balance
+- import ActivityLogHelper class
+- - update ppn vat cetakan bank-receive
+- FINANCE | update transaction add category_name
+- FINANCE | update reverse add phase
+- FINANCE | update response check transaction
+- OPERATION | update doc swagger
+- FINANCE | update asset item
+- FINANCE | update response check transaction
+- FINANCE | update store asset item
+- FINANCE | update journal adjusment clean code
+- OPERATION | update cod swagger
+- OPERATION | update bug provision coa
+- - trial balance |  kurang kondisi jb - general ledger | kurang kondisi jb - report trial balance | kurang kondisi jb .
+- FINANCE | ubah status response hapus closing
+- - ubah status response hapus closing
+- - update hitungan finance dashboard
+- OPERATION | update stok global
+- OPERATION | update stok global, in pit, efo, eto, psi
+- OPERATION | update provision
+- OPERATION | update get block
+- OPERATION | update provision resource
+- OPERATION | update doc swagger
+- OPERATION | update cog checking
+- OPERATION | update repository
+- OPERATION | update resource journal set
+- OPERATION | update resource journal set
+- OPERATION | update resource coas
+- OPERATION | update resource coas
+- OPERATION | update journal request
+- OPERATION | update journal request
+- add middleware for request
+- hendle request teime out
+- OPERATION | update shipping instruction
+- - update pengambilan nilai cog terkait  grading
+- - cog resource
+- - blade pdf invoice - blade pdf shipping-instruction
+- - tambah kontraktor name di cog
+- - print invoice .
+- OPERATION | update desription provision coa
+- OPERATION | update bug provision coa
+- OPERATION | update fl log
+- OPERATION | update provision coa
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- OPERATION | update doc swagger
+- OPERATION | provision journal automatic and journal update DONE
+- - ganti 401 ke 403 untuk aksi yang tidak diizinkan .
+- OPERATION | update provision
+- OPERATION | update provision
+- OPERATION | update provision resource
+- OPERATION | update operation coa validation
+- OPERATION | add tonage final provision coa
+- OPERATION | update provision coa
+- OPERATION | update provision coa
+- OPERATION | update provision coa
+- OPERATION | update doc swagger
+- OPERATION | update provision coa
+- OPERATION | update doc swagger
+- OPERATION | update shipping instruction
+- - mining inspector - shipping instruction pdf
+- OPERATION | update doc swagger
+- OPERATION | update provision coa
+- OPERATION | update doc swagger
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- OPERATION | update shipping instruction
+- - tambah log activity
+- OPERATION | UPD provision resource
+- OPERATION | UPD swagger doc
+- OPERATION | UPD route
+- OPERATION | UPD request shipping attachment
+- OPERATION | ADD Provision COA
+- update swagger doc
+- OPERATION | tambahkan provision coa untuk validasi coa invoice final
+- OPERATION | ADD shipping instruction attachment DSR
+- - update unique key
+- update rumus
+- - color update
+- - komentar sementara update color saat approve si
+- - approve si, salah ambil id_kontraktor .
+- update resource
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update kontraktor resource
+- - lepas username required kontraktor user request
+- Merge branches 'main' and 'main' of ssh://github.com/Skyrocketed-BD/mining-backend-lite
+- - store block controller .
+- update shiping  instruction request
+- update kontraktor edit
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update doc swagger
+- update provision dan si
+- - kurang PSR .
+- update username kontraktor users
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update plan  barging
+- tambahkan provision
+- - update limit user
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update kontraktor update
+- update plan barging resource
+- update shipping instruction
+- update timeline
+- update show detail shipping instruction
+- update validasi shipping instruction
+- - tambah filter date shipping instruction
+- - update name kontraktor .
+- add initial in shipping instruction
+- add color in put approved
+- update shipping instruction
+- add coloum color in kontraktor
+- update kontraktor
+- update kontraktor
+- update kontraktor controller
+- update this initial in plan barging and stok psi
+- - update retrieved
+- - update pb-name
+- update plan barging
+- update shipping instruction
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update shipping instruction
+- - update gudang
+- update doc swagger
+- upda route
+- upda shipping instruction
+- upda plan barging
+- add filter storage
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update si request
+- update STOK GLOBALS
+- update controller
+- - update contractor user
+- update doc swagger
+- add stok globall
+- update stok eto
+- update stok efo
+- update opeartion controller
+- update plan barging
+- update resource
+- update resource
+- update stok request
+- update stok psi
+- update plan barging
+- update stok psi request
+- update request kontraktor users
+- update user resource
+- - kurang id_role .
+- - update userkontraktor .
+- update doc swagger
+- update request
+- update plan barging
+- update stok psi
+- update doc swagger
+- update request si
+- update controller for checking kontraktor
+- update route
+- update kontraktor dan user flow authentication
+- - initial kontraktor .
+- - si_number .
+- update doc swagger
+- update stok psi
+- tambahkan attachment stok eto
+- tambahkan attachment stok eto
+- tambahkan attachment stok efo
+- update swagger doc
+- update route
+- update repository
+- update model
+- update resource
+- update controller
+- update struktur table
+- update stok psi repository
+- update stok psi resource
+- update stok psi controller
+- update stok psi request
+- update stok psi details
+- update stok psi details
+- update stok psi details
+- update swagger doc
+- update swagger doc
+- update repository
+- update helper log activity
+- update resource
+- add stok psi repository
+- add stok efo repository
+- add stok eto repository
+- add stok in pit repository
+- update doc swagger
+- update route
+- update controller operation
+- add shipping instruction
+- update doc swagger
+- update route
+- add psi bardging
+- update drilling and pit
+- add slot master
+- add mc
+- update stok psi
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update stok psi list
+- add master jetty
+- - update order .
+- update resource stok psi
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update doc swagger
+- update stok psi add attachment
+- - update order .
+- update doc swagger
+- UPDATE index stok psi start and end date
+- UPDATE index stok efo start and end date
+- UPDATE index stok eto start and end date
+- UPDATE index stok in pit start and end date
+- update struktur kontraktor
+- tambahkan MC pada stok PSI
+- STOK ETO hilang setelah composite
+- STOK EFO hilang setelah composite
+- - generate dom number .
+- - update kontraktor
+- - lepas dulu limitasi kontraktor login .
+- - tambah id_kontraktor di user resource .
+- update efo flow
+- update eto flow
+- add filter by id pit
+- update flow for select berantai
+- update filter stok in pit
+- update filter stok in pit
+- update doc swagger
+- update master dom in pit
+- update master pit
+- update filter stok in pit
+- update filter stok in pit
+- update filter stok in pit
+- update doc swagger
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update filter stok in pit
+- - kembalikan role .
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update limit user login jus for kontraktor
+- - update enum - fungsi terbilang .
+- add filter stok efo
+- update swagger doc
+- update kontraktor operation
+- - tambah initial .
+- update authorize
+- - stokEfo date not found .
+- add filter kontraktor
+- update format upload
+- update clean code request ib finance
+- update stok in pt
+- update request operation add authorize
+- update kontraktor
+- add cogs after create kontraktor
+- remove kontraktor role
+- update swagger doc
+- UPD custom for finance
+- ADD helper Custom_fun_for_operation.php
+- UPDATE stok_psi structur
+- UPDATE stok_efos structur
+- UPDATE stok_eto structur
+- UPDATE stok_in_pit structur
+- update filter in stok in pit
+- update stokinpit controller
+- update structur relation for operation
+- update upload data stok in pit
+- update helper custom path
+- fix it bug
+- add upload stok in pit:
+- fix it division zero
+- fix it division zero
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- fix it
+- - stokpileEto tambah filter grade .
+- - update StokpileEto
+- update index stok in pit
+- update index eto
+- update index efo
+- update index eto
+- update index efo
+- update doc swagger
+- update stok psi
+- update stok etos dan perhitungan rumus resource
+- update stok efos dan perhitungan rumus resource
+- add upload stok in pit:
+- - update stockinpit .
+- - update report .
+- ubah rumus simg
+- tambahkan sample id pada stok in pit
+- tambahkan simag by rumus pada stok psi
+- tambahkan simag by rumus pada stok efo
+- tambahkan simag by rumus pada stok eto
+- tambahkan simag by rumus pada stok in pit
+- update doc swagger
+- tambah master drilling
+- tambah master pit test
+- update block
+- update resource dom in pit, dom eto dan dom efo
+- - cetak invoice .
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- Upd Get in DOM Efo, Dom Eto, Dom In Pit
+- update doc swagger
+- update model operation
+- update route
+- tambahkan detail stok psi
+- tambahkan detail stok eto
+- tambahkan detail stok efo
+- update doc swagger
+- update route operation
+- update stok efo models
+- update stok eto models
+- tambahkan stok psi
+- update seeder
+- update doc swagger
+- update model pit
+- remove data entry
+- remove dom
+- update route
+- tambahkan stok efo
+- tambahkan stok eto
+- tambahkan stok in pit
+- update model operation
+- tambahkan master pit
+- tambahkan master dom in pit
+- tambahkan master dom efo
+- tambahkan master dom eto
+- - update generate_pdf .
+- UPD kontraktor
+- UPD avatar users
+- UPD avatar users
+- UPD avatar users
+- UPD avatar users
+- ADD controller operation
+- UPD controller operation
+- UPD model operation
+- UPD get data by coa from GL
+- UPD user profile
+- update get data and resource
+- REMOVE required attachment
+- update profil user avatar
+- UPDATE closing entry
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- UPD optimize query lilbit
+- - update hitungan trial balance tahunan/bulanan - update closing entry - update tarikan report interface .
+- RMV usenamespace not use in controller
+- - user profile .
+- - update dashboard finance .
+- - update blade generate_pdf .
+- - update sum_pendapatan_biaya .
+- update closing entry
+- update closing intial balance
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- -  sum_pendapatan_beban .
+- update closing intial balance
+- update condition in pajak
+- update pajak tambahkan pasal pph 25
+- update pajak tambahkan pasal pph 25
+- update report interface
+- UPD doc swagger
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update report interface
+- - kembalikan sum_pendapatan_beban .
+- - sum pendapatan_beban - update period trial  balance - update period export pdf - update report details -
+- update phase
+- update phase
+- update flow closing yearly
+- update flow closing yearly
+- update flow closing yearly
+- update flow closing yearly
+- FIX IT flow closing entry
+- FIX IT flow closing entry
+- update bug journal adjusment
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update bug journal adjusment
+- - update export balance - generate_pdf .
+- UPD doc swagger
+- cleaning code not use
+- UPD journal adjustment
+- APD Closing Entry
+- ADD Journal Closing Entry
+- update closing entry
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- remove adjusment
+- - trial balance yearly/monthly
+- - trial balance yearly/monthly
+- update closing entry month to year
+- update closing entry month to year
+- - asset_depreciation export excel .
+- - asset_depreciation export excel .
+- UPDATE report interface get data
+- UPDATE transaction report query
+- update request FE
+- ADD closing adjustment migrate and UPD modal
+- fix it table structur Data truncated for column 'pajak' at row 1 in coa_clasification Data truncated for column 'phase' at row 1 in general_ledgers Data too long for column 'name' at row 1 in journal
+- update swagger doc
+- update helper journal otomatic
+- update request transactionfull, receipt and expand
+- update structur table transactionfull, receipt and expand
+- fix it bug change name variable
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- FIX IT BUG helper journal automatic
+- - update generate_pdf logo .
+- - orderby date .
+- UPDATE image logo company
+- UPDATE image logo company
+- UPDATE image logo company
+- DELETE image
+- UPDATE image logo company
+- UPDATE receipt, expand and transaction full store logic
+- UPDATE receipt dan expend tambahkan in_ex_tax
+- UPDATE receipt dan expend tambahkan in_ex_tax
+- UPDATE asc gl complex
+- UPDATE asc gl complex
+- UPDATE desc in update transaction
+- - update search transaction bentuk buku besar .
+- - update status .
+- update again transaction
+- update again transaction
+- fix it variable
+- fix it variable
+- fix it variable
+- fix it variable
+- fix it variable
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- UPDATE general ledger logs
+- - update reference number di custom_fun_finance .
+- - update reference number .
+- UPDATE general ledger logs
+- update check transaction
+- update check transaction
+- - transaction search .
+- UPDATE swagger doc
+- REMOVE code not use
+- - general ledger .
+- UPD transaction check general ledger
+- ADD general ledger logs
+- - update status valid .
+- - update status valid .
+- UPDATE swagger doc
+- UPDATE transaction full
+- UPDATE receipts
+- UPDATE expenditure
+- UPDATE add helper journal automatic for transaction full, receipt and expenditure
+- - update response login - update deskripsi jurnal penyesuaian .
+- UPDATE controller tax liability
+- UPDATE request tax liability
+- - tax liability .
+- UPDATE receipts and expenditure store
+- UPDATE receipts and expenditure store
+- UPDATE where in filter transaction
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- UPDATE where in filter transaction
+- - update perhitungan depresiasi aset - update report depresiasi aset .
+- ADD process update transaction
+- ADD process update transaction
+- UPDATE transaction total
+- - update perhitungan export php trial balance
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- UPDATE transactions outstanding and full
+- - update sort by date di details transactions .
+- FIX IT transaction
+- UPDATE expenditure for transaction outstanding
+- UPDATE receipt for transaction outstanding
+- UPDATE expenditure for transaction outstanding
+- UPDATE receipt for transaction outstanding
+- UPDATE transaction full clean code
+- - update detail transaction .
+- update url for transaction detail trx
+- - update increment $no .
+- - tambah detailInvoice .
+- - closing adjustment update .
+- - update untuk menampilkan jurnal view, jika transaksi sudah dihapus .
+- - kembalikan ke std object, error ki kalau array .
+- update JI sort by name abjad
+- asset category - update sort .
+- - update perhitungan trial balance - tanpa closing bulanan .
+- - update value on array .
+- - update response journal interface store/update, biar kelihatan di frontend .
+- Revert "- coba komen dulu validasi journal interface"
+- - coba komen dulu validasi journal interface .
+- reversed logic count
+- reversed logic count
+- update transaction full and outstanding
+- update transaction full and outstanding
+- update transaction full and outstanding
+- update transaction full and outstanding
+- update transaction full and outstanding
+- update journal resource
+- update journal resource
+- update swagger doc
+- UPD journal post and put add  open_input
+- UPD journal set add open_input coloumn
+- UPD coa add is_beban
+- update transaction outstanding reference number
+- update transaction outstanding 0% and beban
+- update transaction outstanding 0% and beban
+- - update perhitungan export trial balance .
+- update transaction outstanding
+- update transaction outstanding
+- update transaction outstanding
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update transaction outstanding
+- UPDATE transaction full
+- - update hitungan export excel trial balance .
+- - cocokmi .
+- UPD again GL
+- update transaction full for ppn 0%
+- update transaction outstanding for ppn 0%
+- update transaction outstanding for ppn 0%
+- update transaction full for ppn 0%
+- update closing entry
+- - update flow closing .
+- update receipts for transaction oustanding add beban
+- update expand for transaction oustanding add beban
+- update  doc swagger
+- UPDATE TRANSACTION FULL
+- UPDATE TRANSACTION
+- fix it journal adjusment
+- update master tax
+- UPDATE master tax add category
+- ADD journal beban validasi
+- - export general entry .
+- - export general ledger - update coa  name .
+- - export general ledger .
+- - export journal interface .
+- - ganti ke metode api untuk semua export excel dan pdf .
+- - jurnal adjustment - closing jurnal adjustment .
+- - export excel journal entry .
+- UPD name for report menu
+- UPD and FIX IT report interface flow code
+- - fix merge conflict .
+- Merge branches 'main' and 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- - coba tambah sub coa di report interface - kalau gagal, tinggal revert, :) .
+- update report interface
+- update helper finance
+- update table report body
+- - update sort trial balance .
+- update report interface
+- update report interface
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update report interface
+- - update uppercase total .
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update report interface
+- update helpers for finance
+- update table report body
+- - update periode di generate_pdf .
+- - update export excel trial-balance .
+- UPD transaction number genereta
+- UPD transaction number genereta
+- UPD GL transaction number
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- UPD closing entry
+- UPD closing entry
+- UPD flow journal adjusment
+- RMV journal_adjustments in reversed
+- - update sort general ledger .
+- UPD closing entry validiation and jurnal adjusment
+- UPD valiadasi coa kosong bank reconsiliation from preference
+- UPD valiadasi coa kosong bank reconsiliation from preference
+- UPD doc swagger
+- UPD route journal adjusment
+- ADD bank reconsiliatin and jurnal adjusment in reversed
+- UPD bank reconsiliation
+- UPD journal adjusment
+- UPD add soft delete in GL
+- - update remaining-1 adjustment journal .
+- - bank reconciliation .
+- - update depreciable .
+- - update asset category - update asset coa - grouping coa accumulated - grouping coa expense .
+- - adjustment entry .
+- - tambah phase acm di general ledger .
+- - tambah search by type di kas dan bank .
+- - change canceled to status on Receive Resource .
+- - add activity log to TransactionFull - change canceled to status on Expenditure Resource .
+- UPD close asset
+- UPD close asset
+- UPDATE closing asset and beban pendapat
+- - update aksi closing depresiasi - update jurnal sort by name .
+- - update asset item filter - tambah asset number .
+- UPD doc swagger
+- UPDATE gl request
+- UPD reversed
+- ADD request in journal entries
+- UPD status fitter
+- UPD resources for transaction
+- UPD start date and end date in asset item
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- UPD doc swagger
+- ADD and UPD parameters in transaction full
+- ADD and UPD parameters in receipts
+- ADD and UPD parameters in transaction
+- ADD and UPD parameters in journal entry
+- ADD and UPD parameters in initial balance
+- ADD and UPD parameters in switching
+- ADD and UPD parameters in expenditure
+- UPDATE route
+- UPDATE transaction for destroy
+- UPDATE expenditure for destroy
+- UPDATE receipts for destroy
+- UPDATE journal entry for destroy
+- UPDATE switching for destroy
+- UPDATE switching for destroy
+- UPDATE initial balance for destroy
+- UPDATE gl for reverse
+- UPDATE gl for reverse
+- UPDATE stuktur tabel ganti canceled ke status pada transaction, transaction full, initial balance, journal entry, receipt, expenditure, switching
+- Merge branch 'main' of ssh://github.com/Skyrocketed-BD/mining-backend-lite
+- - add activity log to Asset Item - add request date range to asset item .
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- UPD reversed all transaction
+- - update orderby date coa gl .
+- - add start-end date filter to initial balance - add activity log to swithing - add activity log to initial balance .
+- - add start-end date filter to initial balance .
+- - add activity log to RoleAccess .
+- - update biginteger to all values
+- - add activity log to Master Contraktor .
+- - add activity log to Master Contraktor .
+- - add activity log to Reference Module - add activity log to Master RoleAccess .
+- FIX IT asset depcreciation journal
+- FIX it bug in journal
+- RMV dd
+- ADD journal for in ex tax in transaction full and outstanding
+- ADD value total in transaction
+- ADD in ex tax in transaction
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- UPD transaction full in ex tax in transaction full DONE
+- - update initial balance store .
+- UPD report asset depreciation in report and closing
+- UPD asset item disposal
+- UPD bug first testing in transaction
+- UPD bug first testing in transaction full
+- UPD kd tax unique in tax rate
+- - update whereHas .
+- - add activity log to Master Menu Module .
+- - add activity log to Role .
+- - update userController .
+- - add activity log to all Validation Requests .
+- - useractivity log .
+- - useractivity log .
+- ADD log activity in route
+- ADD log activity in middleware
+- ADD log activity
+- update swagger
+- ADD cloumn in  transaction full for insert
+- ADD column in ex tax in transaction full and outstanding
+- ADD delete transaction in transaction full
+- UPDATE closing entry for status
+- ADD in ex tax in transaction full
+- FIX IT bug in transaction full
+- update swagger
+- - update asset category resource .
+- - update multiple coa insert .
+- update coa group
+- add insert coa head
+- UPD log viewer
+- UPD route manajemen route api for main, finance, operation etc
+- - update hitungan persen - helper persentase .
+- UPD dashboar finance
+- - tambah round di percent .
+- - undefined prev_expenditure_1 .
+- UPD dashboar finance
+- - bug: division by zero .
+- - update dashboard .
+- add dashboard response DONE
+- ADD validation in update jurnal interface
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- ADD validasi in jurnal interface
+- - undefined variable $transaction_tax .
+- - empty response .
+- - update type transaction .
+- update transaction tax type
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update doc swagger add transaction tax
+- UPD add different coa for calculated in transaction and transaction full
+- ADD transaction tax for effective date DONE
+- UPD tax transaction
+- -  cash dan bank .
+- UPD model transaction and transaction full
+- ADD transaction tax url api
+- update GL table add calculated column
+- update GL table add calculated column
+- update transaction full clean code
+- update GL table add calculated column
+- UPD transaction
+- UPD transaction tax
+- UPD transaction
+- UPD transaction full save transaction tax
+- UPD transaction save transaction tax
+- UPD transaction for tax
+- remove condition in filter
+- ADD asset_number and identity_number
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- ADD asset_number and identity_number
+- feat: effective date tax .
+- table transaction_tax (add id_tax)
+- table tax (add effective_date)
+- add child in asset category
+- add child in asset category
+- Checking disposal in asset depreciation
+- Automatic  update disposal in asset_item
+- ADD users id in closing entry
+- JOURNAL Asset and Asset+DP Done
+- JOURNAL Asset and Asset+DP Done
+- update doc swagger
+- - export excel trialbalance - update period - npm install laravel-excel .
+- - tambah asset_number .
+- UPD report
+- ADD report balance format
+- UPD model coa head
+- UPD model coa group
+- UPD response balance GL
+- - update filter date .
+- - update filter date .
+- UPD trial balance DONE
+- hilangkan tarikan get 0
+- UPD neraca saldo
+- update condtiion
+- update doc swagger
+- UPD closing entry
+- UPD GL
+- ADD closing entry detail
+- - update transaction number .
+- - depreciation .
+- update count depreciation by cutoff day
+- add count_month_by_cut_off in helper
+- ADD validasi saldo coa source
+- update doc swagger
+- UPD transaction outstanding
+- UPD closing entry doc swagger
+- UPD report asset depreciation remove journal
+- UPD closing asset depreciation
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- - update nama parameter
+- - update normal_balance
+- update switching ammount
+- - update generate_number .
+- update doc swagger
+- update switching account
+- fix it conflic
+- update seeder coa clasification accrual accumulated or closed
+- - update seeder coa_classification .
+- ad slug in seeder coa clasification
+- update doc swagger
+- updat api link coa clasification
+- add api filter by slug coa clasification
+- add slug in coa clasification
+- fix it bug initial balance
+- update doc swagger
+- UPD add phase in model
+- UPD add phase in report
+- ADD phase cls for closing
+- ADD phase opr in all journal transaction operaional
+- - update request month - validation on empty transactions .
+- UPD column in GL
+- UPD add order by in get list data
+- RMV code not use
+- - update hitungan closing entry - validasi coa .
+- UPD doc swagger
+- - update coa berdasarkan preferences .
+- UPD is_annual post and put DONE
+- UPD closing entry get and close
+- UPD swagger doc
+- ADD closing entries DONE
+- UPD add column closing in GL
+- UPD report controller remove closing function
+- UPD route web
+- UPD route api
+- UPD helper custom for finance
+- update closing month
+- - update conditional if .
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update flow checking normal_balance
+- PROCESS Closing Per Month
+- - update filter asset .
+- ADD filter in asset item
+- add payment asset dp
+- add payment asset
+- update doc swagger
+- update transaction outstanding for discount, tax, dp DONE
+- update transaction outstanding no dp for auto cut tax
+- update doc swagger for journal interface
+- update length data in  tax rate
+- - update asset report
+- - tambah coa preference
+- UPD attachment not required
+- UPD attachment not required
+- UPD attachment not required
+- UPD id_number to asset_number
+- UPD test
+- UPD test
+- UPD swagger doc
+- ADD journal_asset_depreciation
+- ADD attachment pada asset item
+- asset category
+- ADD presence for tangible and intangeible in asset_category
+- UPD asset item add id_number
+- ADD id number in asset list
+- UPD transactation asset item
+- UPD set date akum asset
+- ADD checking arrangement for coa from preferences
+- UPD asset_depreciation format and add lifespan from preferences
+- UPD asset item resource
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- UPD asset item resource
+- - revert
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- UPD asset item
+- ADD asset depreciation report
+- - update asset coa resource .
+- UPD asset_item
+- UPD doc
+- UPD api link
+- ADD asset report
+- UPD asset item and head
+- UPD asset item
+- ADD asset_category
+- UPD resource asset coa
+- ADD coa name in asset coa
+- ADD group name in asset item
+- ADD discount transaction
+- ADD created_by and updated_by on module operation
+- ADD created_by and updated_by
+- RMVE namespace not use
+- UPD coa_body model
+- UPD transaction full
+- - update parameter integer .
+- - casts id_coa_head, id_coa_clasification .
+- update doc swagger
+- UPD function attachment
+- ADD attachment in transaction full
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- UPD swagger doc
+- UPD filter by date GL
+- UPD helper custom_fun
+- UPD add filter by date month in transaction full
+- UPD add filter by date month in transaction
+- UPD add filter by date month in receipts
+- UPD add filter by date month in expenditure
+- - update perhitungan buku besar .
+- UPD model coa_body
+- UPD validation transaction
+- UPD validation transaction
+- - update response transaction detail .
+- UPD transaction receipt and expendeture
+- ADD annual in report interface
+- UPD transaction detail
+- add validation  if dp 0
+- UPD validation coa_head coa_body
+- ADD validation coa_head coa_body
+- UPD doc swagger
+- ADD validation coa digit in coa
+- ADD validation coa digit in coa head
+- ADD validation coa digit in coa body
+- ADD generate coa number in coa group
+- ADD helper for arrangement
+- UPD filter journal
+- RMV commentar in arrangement
+- - update keyvalue pair .
+- UPD receipts and expenditure
+- UPD transaction
+- UPD transaction
+- UPD transaction
+- UPD transaction
+- UPD transaction
+- UPD transaction journal ONE STOP SOLUTION BY RYAN
+- UPD arrangement system
+- update swagger
+- UPD journal
+- UPD model aggrements
+- UPD journal
+- move aggrement or prefences
+- ADD arrangement / preferences
+- update reverse GL
+- ADD coa clasification seeder
+- update swagger
+- RMV table not use
+- RMV transfer
+- RMV other
+- UPD transaction table, name, and tax
+- UPD journal
+- UPD transaction otustanding
+- UPD coa
+- UPD coa group
+- UPD coa body add id clasification
+- ADD transaction fullpayment
+- ADD switching
+- ADD asset item
+- ADD asset group
+- ADD asset coa
+- ADD coa clasification
+- REMOVE bank
+- ADD bank and cash
+- - update casts reportTitle .
+- - update casts reportTitle .
+- - update casts reportFormula .
+- -update order by kd_tax .
+- - tambah filter type di tax rate .
+- - update menu title report by data .
+- update count formula in report interface
+- remove code not use
+- - update report interface .
+- - update foreach value3 .
+- fix it bug in report title delete
+- - update int id_report_menu .
+- fix it bug in report title delete
+- update report title
+- update report title
+- update report title
+- update report title detail
+- update kontraktor
+- update kontraktor
+- add example new report
+- update swagger
+- update report
+- update general transaction
+- update report title
+- add report formula
+- update report body
+- update report title
+- add helper for finance
+- update log viewer
+- - update sort menucategory - update src asset pdf
+- update kontraktor
+- update kontraktor
+- update kontraktor
+- update get data entry and add id kontraktor request
+- active comment total
+- - log viewer
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- fix it bug journal
+- - remove total
+- update count journal otomatis
+- update count journal otomatis
+- - remove int on kd
+- - update int value TaxRate .
+- - update int value .
+- - update int value .
+- update route statement
+- update route statement
+- update route statement
+- add request in initial statement
+- fix it bug in report title
+- update validation
+- add canceled in transaction
+- add other for jurnal balik
+- add report for statement
+- add Dompdf
+- update add report response
+- update add report response
+- update report title and body
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update report title and body
+- - update hitungan buku besar per coa .
+- - update hitungan buku besar per coa .
+- - update hitungan buku besar - neraca saldo .
+- add column default in coa head
+- remove space or enter
+- update doc swagger
+- add report body
+- add report title
+- add report menu
+- update filter
+- update filter
+- add category for filter
+- add namespace
+- add namespace
+- add other
+- update journal
+- remove usenamespace not use
+- add LABA RUGI
+- - update general ledger .
+- add transfer in jurnal
+- update jurnal set update
+- update reference number
+- add invoice and transfer in journal
+- add id tax
+- add id tax rate
+- add get tax rate by id tax
+- - tambah coa_number .
+- ADD CREATED AND UPDATE BY IN ALL TABLE
+- update penerimaan dan pengeluaran jurnal
+- add transfer account done
+- update tax coa and coa
+- update swager
+- update table journal set
+- update journal set
+- update auto piece to coa in transaction
+- update tax rate percent
+- add function in helper
+- update tax rate
+- update table tax and tax rate
+- update journal set
+- update swagger
+- add transaction tax for record tax use
+- add column id_tax_rate in journal_set
+- add tax coa
+- add ref in tax rate
+- update doc swagger
+- update tax rate
+- remove tax range
+- add master tax
+- add other category for journal interface
+- add description and reference number check transaction
+- update description journal to GL
+- Transaction || Filter || Add reference number on get
+- General Transaction Add return Reference Number
+- update transaction check
+- update transaction flow and add category invoice
+- update cash id_coa_body
+- update int value
+- add url for get list maps .zip
+- update modal dom
+- fix it bug dom
+- update general ledger
+- update kontraktor
+- update block add id kontraktor
+- update dom add id kontraktor
+- update cog add id kontraktor
+- update swagger
+- add block master
+- update and add helpers
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- change tags in receipts
+- - tambah id_coa di neraca saldo .
+- update get list data in penerimaan, pengeluaran dan transaksi
+- update transaction model
+- Update Receive & Expenditure add reference_number
+- add neraca saldo
+- update coa detail in GL
+- update swagger
+- update api controller for finance
+- add retur in general ledger
+- update model for finance
+- update tabel finance
+- add general ledger DONE
+- - tambah index .
+- fix it bug
+- add check transaction
+- update swagger
+- add journal umum
+- add saldo awal
+- add validation must unique coa
+- update filter for get transaction
+- add url for filter transaction by name
+- update get list transaction
+- update url in journal
+- update journal receipts, expenditure and transaction in finance
+- update get list receipts and expendeture
+- update get list receipts and expendeture
+- add filter transaction by category
+- add transaction name
+- clean code
+- - add menu order by position .
+- add api for filter journal
+- - update menubodyseeder .
+- add transaction
+- add transaction name seeder
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update table transaction name and journal
+- update seeder
+- update url transaction type
+- add alocation in transaction type
+- - update seeder cog - update seeder dataentry - update seeder dome - update seeder menubody - udpate seeder menuchild - update seeder roleaccess .
+- - update divide by zero
+- update count stockpile ETO in operation
+- update coa head add id group
+- update doc api swagger
+- database structur add coa group table
+- database structur body table
+- database structur head table
+- database structur coa table
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update coa remove type
+- - update taxrate range .
+- add parameter in coa
+- add validationg in cog master operation
+- fix it bug in filter data enry
+- updaet custom default date
+- add simag total
+- add parameter in data entry
+- add filter grade in data entries
+- add parameter id_dome in stockpile eto
+- update query
+- add simag
+- add dome name
+- add authorize
+- update swagger doc
+- update dynamic type in stockpile ETO
+- update structur cogs and data entries
+- add table DOM
+- update delete cogs
+- update delete cogs
+- update delete cogs
+- - add cast id_journal_set, id_transaction_type .
+- - add cast id_journal id_coa .
+- add crud tax and tax range for API
+- add weekly in filter data entries
+- update transaction type add alocation
+- add flter data entry
+- - update url production swagger .
+- add master tax
+- remove column not use
+- add command for generate coa and update seeder and structure
+- - tambah round .
+- update data entry list data
+- add id receipts and expenditure
+- update get by type for receipts and expenditure
+- add expenditure DONE
+- update generate welcome to api docs
+- - update seeder coa_body - update seeder coa_head - update seeder coa .
+- fix it bug get transaction type
+- fix it bug in receipts
+- add get transaction type and upd get data
+- change id_cost_type to id_transaction_type
+- add key id_journal_set
+- add validation if destroy
+- add unique transaction type and cannot delete or update journal set if have transaction in general ledger
+- add resource for journal
+- - update seeder menubody - update seeder menucategory - update seeder roleaccess .
+- update role access
+- - update seeders .
+- add receipts DONE
+- update users
+- update users : sorry pak Dino wkwkw :D
+- update transaction, expenditure, general_ledger
+- update transaction and expenditure
+- update journal and change receipts
+- add transaction
+- add general_ledger/buku_besar
+- add expenditure/pengeluaran
+- add receipts/penerimaan
+- add helpers
+- change cost type to transaction type
+- update menu management
+- update post rule
+- update code
+- update code
+- add condition in menu body
+- update role acces for management menu
+- remove children key
+- Merge branches 'main' and 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- add role access for management menu
+- cast is_enabled .
+- cast is_enabled .
+- - update casts id .
+- add name menu category
+- add cash receipt
+- add name menu body
+- update sort by id role
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- add bank DONE
+- update cast id_role
+- update cast id_role
+- fix it bug update users and kontraktor validation
+- change key in menu bodies
+- add children in menu body
+- add is enabled in menu body
+- change cascade to restrict
+- add check if menu enabled
+- reset password users
+- users active
+- add type (global, iujp, trader, smelter) to coa
+- add journal interface setting
+- add coa seeder
+- update url
+- remove update password
+- update var $modul
+- add lucid dot
+- update role access
+- update role access
+- update role access
+- add role access
+- add role access DONE
+- update loging context
+- update inv example
+- add log viewer for hendle error request id
+- add middlaware for logging and monitoring request error
+- menu child DONE
+- add api menu body for enabled
+- update tags controller for swagger
+- add cost type
+- update code in another controller
+- update menu module sort
+- update api response class
+- create coa master head, body, coas DONE
+- add menu management for access
+- add menu management for access
+- update all request response
+- update authentication
+- update api response class
+- update api response validation
+- fix it bug swagger in update data entry and add delete data entry
+- get specific user data after auth
+- update cast dataentry integer
+- update data entry .
+- coba tambah casts data entry .
+- coba tambah casts .
+- update resource users list
+- update swagger
+- update users validation
+- update created and updated at in users table
+- clean code remove not use
+- add soft delete in users
+- update kolom sio2
+- add menu module DONE
+- update kolom
+- update data entry
+- fix it kontraktor
+- update respon object to array
+- update database
+- update database
+- update kontrak dan data entry
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- munculkan email pada data kontraktor
+- update kontraktor
+- update kontraktor show data
+- update kontraktor .
+- update rule users
+- create master cog
+- fix it kontraktor process
+- fix it kontraktor process
+- update kontraktor
+- update kontraktor and user
+- update kontraktor
+- kontraktor
+- add conection in another database model
+- fix it bug operation kontraktor
+- operation test
+- add kontraktor table
+- crud users/pengguna DONE
+- update users model
+- update api auth user
+- creata model and migrate management menu for role
+- update coe crud
+- add crud role
+- update app middleware
+- add class api response global
+- add class api response global
+- update structur api
+- add table manajemen menu
+- authentication api DONE
+- update swagger api documentation
+- update route api auth
+- add me api
+- update credential login username or email
+- update readme
+- update environtment
+- Merge branch 'main' of https://github.com/Skyrocketed-BD/mining-backend-lite
+- update swagger
+- Update README.md
+- Delete .github/workflows/telegram.yml
+- Update README.md
+- Update README.md
+- Update README.md
+- Update telegram.yml
+- Create telegram.yml
+- update swagger
+- add swagger documentation
+- add auth jwt for api
+- config setting
+- first commit

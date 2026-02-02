@@ -1,0 +1,424 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@page {
+    /* margin-top: 100px;
+    margin-bottom: 70px; */
+    margin: 10mm 10mm 10mm 10mm;
+    @bottom-center {
+        content: "Halaman " counter(page) " dari " counter(pages);
+    }
+}
+
+body {
+    font-family: "SourceSansPro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    color: #282d32;
+    /* font-size: 0.875rem; */
+    font-size: 12px;
+    position: relative;
+    margin: 0 auto;
+
+    /* padding: 10px; */
+    /* border: 2px solid rgb(66, 66, 66); */
+    height: 100%;
+}
+
+header {
+    padding-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 80px;
+}
+
+.table-header {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.table-header td {
+    padding: 0;
+    border: 0;
+    padding: 0px 0px 7px 0px;
+    /* border: 1px solid #1d1d1d; */
+    border-bottom: 1px solid #252525;
+}
+
+.header-border td {
+    padding: 0;
+    border: 0;
+    padding: 0px 0px 1px 0px;
+    /* border: 1px solid #1d1d1d; */
+    border-bottom: 1px solid #252525;
+}
+
+.logo-cell {
+    width: 15%;
+    text-align: center;
+    /* margin: 0 auto 4px auto; */
+}
+
+.logo-img {
+    width: 90%;
+    /* height: 85px; */
+}
+
+.company-cell {
+    width: 85%;
+    text-align: center;
+    vertical-align: top;
+    /* border: 1px solid #333; */
+}
+
+h2.company-name {
+    margin: 0;
+    display: inline-table;
+    text-transform: uppercase;
+    /* letter-spacing: 1pt; */
+    font-size: 2rem;
+    padding-bottom: 1px;
+    border-bottom: 3px solid #0f0f11;
+}
+.company-bottom {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #242427;
+    display: inline-table;
+}
+/* .company-info {
+    padding-bottom: 18px;
+} */
+
+#logo {
+    float: left;
+    margin-top: 8px;
+    margin-right: 80px;
+}
+
+#logo img {
+    height: 80px;
+}
+
+#company {
+    text-align: center;
+}
+#company .name {
+    text-transform: uppercase;
+    font-size: 2rem;
+    /* text-decoration: underline; */
+    /* text-decoration-style: double; */
+    /* solid | double | dotted | dashed | wavy */
+    border-bottom: 3px solid #000000;
+    /* display:inline-table; */
+}
+
+#company .info {
+    text-align: center;
+    color: #222;
+}
+
+h2.name {
+    font-size: 1.4em;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin: 0;
+}
+
+.remove-link {
+    text-decoration: none;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-half {
+    width: 50%;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.kanan {
+    text-align: right;
+}
+
+.mr {
+    margin-right: 5px;
+}
+
+.ml {
+    margin-left: 5px;
+}
+
+.miring {
+    font-style: italic;
+}
+
+.tebal {
+    font-weight: bold;
+}
+
+.merah {
+    color: crimson;
+}
+
+.lebih-besar {
+    font-size: 1.1em !important;
+    font-style: italic;
+}
+
+.margin-top {
+    margin-top: 1.12rem;
+}
+
+.margin-bottom05 {
+    margin-bottom: 0.5rem;
+}
+
+.margin-bottom {
+    margin-bottom: 1.52rem;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header .title {
+    padding: 0;
+    font-weight: bold;
+    font-style: italic;
+    color: #111;
+    margin: 0;
+}
+
+.header .sub-title {
+    padding: 0;
+    font-weight: bold;
+    margin: 0;
+}
+
+.border-top {
+    display: inline-block;
+    border-top: 1px solid #222;
+}
+
+.border-bottom {
+    display: inline-block;
+    border-bottom: 1px solid #222;
+}
+.line-space {
+    margin-top: 16px;
+}
+
+/* .info-section {
+    margin-top: 16px;
+} */
+
+.table-title {
+    width: 100%;
+    border-collapse: collapse;
+    vertical-align: top;
+    padding: 0px 15px 0px 20px;
+    /* border: 1px solid #d71515; */
+
+    /* margin: 0;
+    padding: 0;
+    border: 0; */
+}
+
+.table-title tr td {
+    vertical-align: top;
+    padding: 0px 5px 0px 0px;
+}
+
+.table-title .label {
+    font-style: italic;
+}
+
+.table-title .bill-to {
+    font-style: italic;
+    color: #444;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.table-title .content {
+    font-weight: bold;
+}
+
+.line-top-bottom-full {
+    width: 100%;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+.transport-vessel {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 8px;
+    font-weight: bold;
+    text-align: center;
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #111;
+    background-color: #f2f2f2;
+}
+
+.table-details,
+.table-history,
+.table-bank {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table .table-details td {
+    border: 1px solid #aaa;
+    /* padding: 5px; */
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-size: 12px;
+}
+
+table .table-details th {
+    border: 1px solid #aaa;
+    padding: 5px;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.table-history th {
+    padding: 3px;
+    border: 1px solid #aaa;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.table-history td {
+    border: 1px solid #aaa;
+    padding: 2px;
+    font-size: 10px;
+}
+
+.info-inspector {
+    position: fixed;
+    width: 100%;
+    right: 0;
+    /* bottom: 70px; */
+}
+
+.ttd-inspector {
+    font-size: 14px !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.info-bank {
+    font-size: 11px;
+    width: 100%;
+    right: 0;
+    bottom: 60px;
+}
+
+.info-bank .bill-to {
+    font-style: italic;
+    color: #444;
+}
+
+.info-bank .account-name {
+    font-weight: bold;
+    color: #444;
+}
+
+.info-bank .line-space {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+table .table-bank th {
+    padding: 4px;
+    border: 1px solid #aaa;
+    font-weight: bold;
+    /* font-size: 10px; */
+}
+
+table .table-bank td {
+    background-color: #f2f2f2;
+    border: 1px solid #aaa;
+    padding: 4px;
+    /* font-size: 10px; */
+}
+
+.info-bottom {
+    position: fixed;
+    left: 20px;
+    /*right: 20px;; */
+    width: 100%;
+    padding: 10px;
+    /* margin: auto; */
+    /* right: 0; */
+    bottom: 0px;
+    margin-bottom: 20px;
+    /* margin-right:10px; */
+    font-size: 10px;
+    font-style: italic;
+}
+
+.info-bottom .bill-to {
+    font-weight: bold;
+}
+
+.info-bottom .line-space {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.table-reference {
+    /* width: 100%; */
+    border-collapse: collapse;
+}
+
+table .table-reference td {
+    border: 1px solid #aaa;
+    padding: 2px 6px;
+}
+
+.footer {
+    padding: 0px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 22px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 4px);
+    color: #333;
+    line-height: 7px;
+    font-size: 10px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /* border: none; */
+    margin-bottom: -15px;
+    /* border-top: 1px solid rgb(66, 66, 66);
+    border-bottom: 2px solid rgb(66, 66, 66);
+    border-right: 2px solid rgb(66, 66, 66);
+    border-left: 2px solid rgb(66, 66, 66);     */
+}

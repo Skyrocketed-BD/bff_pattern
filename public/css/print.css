@@ -1,0 +1,157 @@
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: "SourceSansPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #282d32;
+    font-size: 0.875rem;
+    position: relative;
+    /* width: 21cm;
+    height: 29.7cm; */
+    margin: 0 auto;
+}
+
+header {
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+#logo {
+    float: left;
+    margin-top: 8px;
+}
+
+#logo img {
+    height: 70px;
+}
+
+#company {
+    float: right;
+    text-align: right;
+}
+
+h2.name {
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin: 0;
+}
+.w-full {
+    width: 100%;
+}
+.w-half {
+    width: 50%;
+}
+.margin-top {
+    margin-top: 1.12rem;
+}
+.margin-top-double {
+    margin-top: 3.12rem;
+}
+.margin-bottom {
+    margin-bottom: 1.52rem;
+}
+.footer {
+    font-size: 0.575rem;
+    padding: 0.1rem;
+    background-color: #fafafa;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+table.invoice, table.invoice-description {
+    font-size: 1rem;
+}
+
+table.invoice th {
+    padding: 0.55rem;
+}
+
+table.invoice td, table.invoice-description td {
+    padding: 0.25rem;
+}
+
+.td-head {
+    font-style: italic;
+}
+
+.printed-by {
+    font-size: 0.8rem !important;
+}
+
+.td-head-right {
+    font-style: italic;
+}
+
+.td-content {
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+.td-total {
+    font-size: 1.15rem;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+/* table.invoice-description {
+    background-color: #aaaaaa;
+} */
+
+table.invoice-description .tr-description{
+    margin-top:1rem;
+    background-color: #eee;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.title {
+    padding: 0;
+    font-weight: bold;
+    margin: 0;
+}
+.sub-title {
+    padding: 0;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0;
+}
+
+.header-only {
+    padding: 0;
+    font-weight: bold;
+    font-size: 0.85rem;
+    font-style: italic;
+    margin: 0;
+}
