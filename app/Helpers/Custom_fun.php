@@ -425,3 +425,10 @@ if (!function_exists('sanitize_npwp')) {
         return str_replace(['.', '-'], '', $npwp);
     }
 }
+
+if (!function_exists('snake_case')) {
+    function snake_case($value)
+    {
+        return \Illuminate\Support\Str::snake($value);
+    }
+}

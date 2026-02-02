@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\Finance\AssetCategoryController;
 use App\Http\Controllers\Api\Finance\CoaController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,5 +18,15 @@ Route::group([
     Route::controller(CoaController::class)->prefix('coas')->group(function () {
         Route::get('/', 'index');
         Route::get('/{id}', 'show');
+    });
+
+    Route::prefix('asset')->group(function () {
+        Route::controller(AssetCategoryController::class)->prefix('category')->group(function () {
+            Route::get('/', 'index');
+            Route::post('/', 'store');
+            Route::get('/{id}', 'show');
+            Route::put('/{id}', 'update');
+            Route::delete('/{id}', 'destroy');
+        });
     });
 });
