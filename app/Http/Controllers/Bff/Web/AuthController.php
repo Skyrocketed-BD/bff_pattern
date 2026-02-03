@@ -29,9 +29,8 @@ class AuthController extends Controller
 
         return $data;
     }
-    public function logout(Request $request)
+    public function logout()
     {
-        // Hapus session
         session()->forget(['access_token']);
 
         return response()->json([
@@ -39,15 +38,18 @@ class AuthController extends Controller
             'message' => 'Logged out'
         ]);
     }
-    public function verify(Request $request)
+
+    public function me()
     {
-        dd('verify bff web');
+        return response()->json([
+            'access_token' => session('access_token')
+        ]);
     }
 
-    public function me(Request $request)
+    public function csrf()
     {
-        $access_token = session('access_token');
-
-        dd($access_token);
+        return response()->json([
+            'csrf_token' => csrf_token()
+        ]);
     }
 }

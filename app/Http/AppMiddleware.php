@@ -25,9 +25,9 @@ class AppMiddleware
             \App\Http\Middleware\CorsMiddleware::class,
         ]);
 
-        $middleware->validateCsrfTokens(except: [
-            'bff-web/*',
-            'bff-mobile/*',
-        ]);
+        // $middleware->validateCsrfTokens(except: [
+        //     'bff-web/*',
+        //     'bff-mobile/*',
+        // ]);
     }
 }
