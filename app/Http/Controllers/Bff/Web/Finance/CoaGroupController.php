@@ -5,11 +5,11 @@ namespace App\Http\Controllers\Bff\Web\Finance;
 use App\Http\Controllers\Bff\BffController;
 use Illuminate\Http\Request;
 
-class CoaController extends BffController
+class CoaGroupController extends BffController
 {
     public function index()
     {
-        $response = $this->apiClientService->get('/asset/coa');
+        $response = $this->apiClientService->get('/coa/groups');
 
         return $this->handleApiResponse($response);
     }
@@ -17,7 +17,7 @@ class CoaController extends BffController
     public function store(Request $request)
     {
         try {
-            $response = $this->apiClientService->post('/asset/coa', $request->all());
+            $response = $this->apiClientService->post('/coa/groups', $request->all());
 
             return $this->handleApiResponse($response);
         } catch (\Exception $e) {
@@ -28,7 +28,7 @@ class CoaController extends BffController
     public function show($id)
     {
         try {
-            $response = $this->apiClientService->get('/asset/coa/' . $id);
+            $response = $this->apiClientService->get('/coa/groups/' . $id);
 
             return $this->handleApiResponse($response);
         } catch (\Exception $e) {
@@ -39,7 +39,7 @@ class CoaController extends BffController
     public function update(Request $request, $id)
     {
         try {
-            $response = $this->apiClientService->put('/asset/coa/' . $id, $request->all());
+            $response = $this->apiClientService->put('/coa/groups/' . $id, $request->all());
 
             return $this->handleApiResponse($response);
         } catch (\Exception $e) {
@@ -50,7 +50,7 @@ class CoaController extends BffController
     public function destroy($id)
     {
         try {
-            $response = $this->apiClientService->delete('/asset/coa/' . $id);
+            $response = $this->apiClientService->delete('/coa/groups/' . $id);
 
             return $this->handleApiResponse($response);
         } catch (\Exception $e) {

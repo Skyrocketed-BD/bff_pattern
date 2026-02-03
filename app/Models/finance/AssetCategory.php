@@ -2,9 +2,9 @@
 
 namespace App\Models\finance;
 
+use App\Traits\Loggable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use App\Traits\Loggable;
 
 class AssetCategory extends Model
 {

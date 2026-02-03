@@ -1,15 +1,24 @@
+## format membuat controller baru untuk Bff Controller
+
+variabel :
+- path => app/Http/Controllers/Bff/Web
+- url => ambil dari instruksi
+- NamaController => nama controller
+- Location => lokasi controller
+
+```
 <?php
 
-namespace App\Http\Controllers\Bff\Web\Finance;
+namespace App\Http\Controllers\Bff\Web\{Location};
 
 use App\Http\Controllers\Bff\BffController;
 use Illuminate\Http\Request;
 
-class CoaController extends BffController
+class {NamaController} extends BffController
 {
     public function index()
     {
-        $response = $this->apiClientService->get('/asset/coa');
+        $response = $this->apiClientService->get({url});
 
         return $this->handleApiResponse($response);
     }
@@ -17,7 +26,7 @@ class CoaController extends BffController
     public function store(Request $request)
     {
         try {
-            $response = $this->apiClientService->post('/asset/coa', $request->all());
+            $response = $this->apiClientService->post({url}, $request->all());
 
             return $this->handleApiResponse($response);
         } catch (\Exception $e) {
@@ -28,7 +37,7 @@ class CoaController extends BffController
     public function show($id)
     {
         try {
-            $response = $this->apiClientService->get('/asset/coa/' . $id);
+            $response = $this->apiClientService->get({url}' . $id);
 
             return $this->handleApiResponse($response);
         } catch (\Exception $e) {
@@ -39,7 +48,7 @@ class CoaController extends BffController
     public function update(Request $request, $id)
     {
         try {
-            $response = $this->apiClientService->put('/asset/coa/' . $id, $request->all());
+            $response = $this->apiClientService->put({url}' . $id, $request->all());
 
             return $this->handleApiResponse($response);
         } catch (\Exception $e) {
@@ -50,7 +59,7 @@ class CoaController extends BffController
     public function destroy($id)
     {
         try {
-            $response = $this->apiClientService->delete('/asset/coa/' . $id);
+            $response = $this->apiClientService->delete({url}' . $id);
 
             return $this->handleApiResponse($response);
         } catch (\Exception $e) {
@@ -58,3 +67,4 @@ class CoaController extends BffController
         }
     }
 }
+```
