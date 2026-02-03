@@ -24,10 +24,5 @@ class AppMiddleware
             LoggingContext::class,
             \App\Http\Middleware\CorsMiddleware::class,
         ]);
-
-        // $middleware->validateCsrfTokens(except: [
-        //     'bff-web/*',
-        //     'bff-mobile/*',
-        // ]);
     }
 }
